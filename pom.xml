@@ -6,7 +6,7 @@
     <groupId>org.springframework</groupId>
     <artifactId>gs-rest-service</artifactId>
     <version>0.1.0</version>
-	<packaging>jar</packaging>
+    <packaging>jar</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -18,10 +18,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+	    <mainClass>service.Application</mainClass>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+	    <mainClass>service.Application</mainClass>
             <scope>test</scope>
         </dependency>
         <dependency>
